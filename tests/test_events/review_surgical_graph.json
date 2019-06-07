@@ -1,0 +1,68 @@
+{
+  "task_name": "audit_surgeon_graph",
+  "flow_id": "surgical_review-1-1013613-146856",
+  "task_kwargs": {
+    "id_source": "PSI",
+    "client_id": {
+      "_alg_class": "decimal",
+      "value": "1013613"
+    },
+    "encounter_id": {
+      "_alg_class": "decimal",
+      "value": "146856"
+    },
+    "encounter_data": {
+      "Service ID": {
+        "_alg_class": "decimal",
+        "value": "146856"
+      },
+      "Service Date": {
+        "_alg_class": "datetime",
+        "value": {
+          "tz": "None",
+          "timestamp": 1426046400.0
+        }
+      },
+      "Service Type": "CommSupp",
+      "Non Billable": "False",
+      "Staff ID": {
+        "_alg_class": "decimal",
+        "value": "7332"
+      },
+      "Consumer ID": "1013613",
+      "Last Name": "Doe",
+      "First Name": "John",
+      "DOB": {
+        "_alg_class": "datetime",
+        "value": {
+          "tz": "None",
+          "timestamp": 154844800.0
+        }
+      },
+      "Time In": {
+        "_alg_class": "datetime",
+        "value": {
+          "tz": "None",
+          "timestamp": 1426098600.0
+        }
+      },
+      "Time Out": {
+        "_alg_class": "datetime",
+        "value": {
+          "tz": "None",
+          "timestamp": 1426102200.0
+        }
+      },
+      "Transfer Date": {
+        "_alg_class": "datetime",
+        "value": {
+          "tz": "None",
+          "timestamp": 1426193378.0
+        }
+      },
+      "Visit Type": "Community Support",
+      "": "None"
+    },
+    "encounter_bucket": "algernonsolutions-gentlemen-dev"
+  }
+}
